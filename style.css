@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, Helvetica, Geneva, sans-serif;
+}
+body {
+  text-align: center;
+  background-color: lightgray;
+}
+table,
+th,
+td {
+  border: 1px black solid;
+  text-align: center;
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: rgb(218, 218, 218);
+}
+img {
+  height: 30px;
+  width: 45px;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #264c705b;
+}
+table th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #264c70;
+  color: white;
+}
+#allCountries {
+  margin-top: 4px;
+}
+h1 {
+  color: #264c70;
+  font-size: 3rem;
+}
+form {
+  border-radius: 25px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border: 2px solid #264c70;
+}

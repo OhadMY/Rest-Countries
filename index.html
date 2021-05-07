@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Rest Countries</h1>
+      <div class="selection">
+        <input id="search" type="text" required />
+        <button>Get Country Info</button>
+      </div>
+      <button type="button" id="allCountries">Get All Countries</button>
+    </form>
+    <table>
+      <tr class="permanent">
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Flag</th>
+        <th>Currencies</th>
+        <th>Top Level Domain</th>
+        <th>Alpha 3 Code - Borders</th>
+      </tr>
+    </table>
+  </body>
+</html>
